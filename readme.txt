@@ -2,14 +2,14 @@
 Contributors: pgogy
 Tags: buddypress, social networking, activity, visualisations, tag cloud
 Requires at least: 3.4
-Tested up to: 4.2
-Stable tag: 0.4
+Tested up to: 4.3
+Stable tag: 0.51
 
-Allows visualisations to be shown for how users use your buddypress site
+Allows visualisations to be shown for how users work in groups on your buddypress site
 
 == Description ==
 
-This plugin allows for BuddyPress to be extended (on each user profile) by showing a variety of different forms of activities visualised
+This plugin allows for BuddyPress to be extended (on each group) by showing a variety of different forms of activities visualised
 
 == Installation ==
 
@@ -20,3 +20,5 @@ Activate the plugin in the "Plugins" admin panel using the "Activate" link.
 
 
 == Changelog ==
+
+Fix due to error in library file, now removed

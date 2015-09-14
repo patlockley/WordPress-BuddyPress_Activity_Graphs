@@ -2,8 +2,8 @@
 
 	/*
 	Plugin Name: Buddypress Activity Graphs
-	Description: This plugin displays graphs for each user to allow activities on buddypress sites to be displayed as graphs 
-	Version: 0.4
+	Description: This plugin allows for BuddyPress to be extended (on each group) by showing a variety of different forms of activities visualised
+	Version: 0.51
 	Author: pgogy
 	*/
 	
@@ -95,8 +95,10 @@
 		}
 		
 		function bpag_init() {
-			require_once("buddypress_activity_graph_lib.php");
-			bp_register_group_extension( 'buddypress_activity_graph' );
+			if(class_exists("BP_Group_Extension")){
+				require_once("bag-library.php");
+				bp_register_group_extension( 'buddypress_activity_graph' );
+			}
 		}
 	
 	}

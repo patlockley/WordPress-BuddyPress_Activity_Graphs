@@ -1,12 +1,5 @@
 <?PHP
 
-	/*
-	Plugin Name: Buddypress Activity Graphs
-	Description: This plugin displays graphs for each user to allow activities on buddypress sites to be displayed as graphs 
-	Version: 0.3
-	Author: pgogy
-	*/
-	
 	class buddypress_activity_graph extends BP_Group_Extension{
 
 		var $lib;
